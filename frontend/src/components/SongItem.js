@@ -14,7 +14,7 @@ function SongItem({item}) {
           title: title,
           artist: artist,
           image: image,
-          url: `http://127.0.0.1:5000/api/stream?artist=${artist}&song=${title}`,
+          url: `https://ipfs.io/ipfs/bafybeihrqua3bfephuukr3hofjtks4ya76iwo6pxqgxkjtpytg3oqt7vte`,
         });
         setIsplaying(true)
     };
